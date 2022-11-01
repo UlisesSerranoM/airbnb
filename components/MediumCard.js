@@ -12,7 +12,7 @@ function MediumCard({img, title}) {
                     className="rounded-lg"
                 />
             </div>
-            <h3 className="text-2xl mt-3">{title}</h3>
+            <h3 className="text-2xl mt-3 dark:text-white">{title}</h3>
         </div>
     );
 }
